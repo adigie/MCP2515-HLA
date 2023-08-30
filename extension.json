@@ -1,0 +1,13 @@
+{
+  "name": "MCP2515-HLA",
+  "apiVersion": "1.0.0",
+  "author": "Adrian Gielniewski",
+  "version": "0.0.1",
+  "description": "SPI interface analyzer for MCP2515 CAN controller",
+  "extensions": {
+    "MCP2515-HLA": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.MCP2515Hla"
+    }
+  }
+}
